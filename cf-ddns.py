@@ -24,7 +24,7 @@ except ImportError:
 import json
 
 
-config_file_name = 'cf-ddns.conf'
+config_file_name = '/usr/local/bin/cf-ddns.conf'
 
 with open(config_file_name, 'r') as config_file:
     try:
